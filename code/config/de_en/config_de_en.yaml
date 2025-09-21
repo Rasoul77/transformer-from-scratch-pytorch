@@ -1,0 +1,33 @@
+seed: null
+data:
+  dataset_path: "iwslt2017"
+  input_lang: "de"
+  output_lang: "en"
+  input_vocab_size: 8000
+  input_tokenizer_model: "bpe"
+  output_vocab_size: 8000
+  output_tokenizer_model: "bpe"
+  pad_token_index: 0
+  tokenizer_model_path: "./tokenizer_models"
+model:
+  max_seq_length: 256
+  num_layers: 6
+  num_heads: 8
+  dim_model: 512
+  dim_k: 64
+  dim_v: 64
+  dim_ff: 2048
+  dropout: 0.1
+  load: null
+train:
+  batch_size: 80
+  learning_rate: 0.0001
+  num_epochs: 10
+  root_chkpt: "./checkpoints"
+  deterministic: False
+  scheduler:  
+    enabled: False
+    num_warmup_epochs: 1.0
+    num_cycles: 0.45  
+eval:
+  batch_size: 96

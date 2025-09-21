@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this educational Transformer implementation in your work, please cite it as below."
+title: "transformer-from-scratch: An Educational Transformer Implementation"
+authors:
+  - family-names: Mojtahedzadeh
+    given-names: Rasoul
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+date-released: 2025-09-20
+version: "1.0.0"
+repository-code: "https://github.com/Rasoul77/transformer-from-scratch.git"
