@@ -50,9 +50,9 @@ Ensure you have the following installed:
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/Rasoul77/transformer-from-scratch.git
+    git clone https://github.com/Rasoul77/transformer-from-scratch-pytorch.git
     
-    cd transformer-from-scratch
+    cd transformer-from-scratch-pytorch
     ```
 
 2.  Install the required Python packages:
