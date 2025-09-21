@@ -22,7 +22,7 @@ model:
 train:
   batch_size: 80
   learning_rate: 0.0001
-  num_epochs: 10
+  num_epochs: 50
   root_chkpt: "./checkpoints"
   deterministic: False
   scheduler:  
