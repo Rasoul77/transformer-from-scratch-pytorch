@@ -98,7 +98,7 @@ cd code
 python3 tokenizer.py --config_path config/de_en/config_de_en.yaml --use_wandb --wandb_project "Transformer-DE-EN"
 ```
 
-The trained model will be saved in a folder named `checkpoints` with the corresponding config yaml file.
+The trained model with the corresponding config yaml file will be saved in a folder named `checkpoints`.
 
 #### Translate Sentences (Inference)
 In order to test the trained model, an inference script named `translate.py` is provided. In order to use it, you need to specify the checkpoint folder as the argument.
