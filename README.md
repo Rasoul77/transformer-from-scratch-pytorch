@@ -1,5 +1,5 @@
 
-# Attention Is All You Need 
+# Transformer — An Educational Implementation
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/Python-%E2%89%A53.10-blue.svg)](https://www.python.org/downloads/)
@@ -7,7 +7,7 @@
 
 ![Implementation Detailed Transformers Architecture](media/TransformersArchitectures.png)
 
-# Transformer — An Educational Implementation
+# Attention Is All You Need
 
 This repository provides an **educational, implementation-oriented view of the Transformer architecture**, originally introduced in *"Attention Is All You Need"* (Vaswani et al., 2017).  
 To make the model more approachable, the architecture has been redrawn with additional **implementation-level details**, so that each block in the diagram directly corresponds to components in the code. This helps bridge the gap between the abstract architecture and its practical realization.
